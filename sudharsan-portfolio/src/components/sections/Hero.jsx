@@ -155,6 +155,14 @@ export default function Hero() {
               {hero.ctas.tertiary.label}
               <PiArrowRight size={16} />
             </Button>
+            <a
+              href="https://drive.google.com/file/d/1InCClJHz-19ppO7ZsEXuqPTBCWLDHjM8/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent-blue hover:text-accent-blue-dark transition-colors"
+            >
+              View Resume
+            </a>
           </motion.div>
         </div>
 
