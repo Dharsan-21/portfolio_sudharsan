@@ -269,7 +269,7 @@ export const footer = {
   social: [
     { type: 'github', href: 'https://github.com/sudharsan', label: 'GitHub' },
     { type: 'linkedin', href: 'https://linkedin.com/in/sudharsan', label: 'LinkedIn' },
-    { type: 'email', href: 'mailto:sudharsan@example.com', label: 'Email' },
+    { type: 'email', href: 'mailto:dharsanbalu21@gmail.com', label: 'Email' },
   ],
 }
 
