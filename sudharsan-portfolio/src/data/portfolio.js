@@ -247,7 +247,7 @@ export const contact = {
       type: 'email',
       label: 'Email',
       href: 'mailto:sudharsan@example.com',
-      value: 'sudharsan@example.com',
+      value: 'dharsanbalu21@gmail.com',
     },
     {
       type: 'linkedin',
