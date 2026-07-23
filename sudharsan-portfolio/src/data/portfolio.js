@@ -1,6 +1,6 @@
 export const site = {
   name: 'Sudharsan B',
-  initials: 'SB',
+  initials: 'B',
   logo: 'Sudharsan',
   year: '2025',
   location: 'Chennai, India',
@@ -186,7 +186,11 @@ export const achievements = {
       icon: 'cube',
       title: '3D Printing & Prototyping Workshop',
       description: 'Rapid prototyping for hardware project iterations',
+<<<<<<< HEAD
       context: '2025',
+=======
+      context: '2026',
+>>>>>>> 260df2b (Fix contact form and Supabase integration)
     },
   ],
 }
