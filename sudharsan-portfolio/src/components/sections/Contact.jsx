@@ -64,11 +64,13 @@ export default function Contact() {
 
     setLoading(false)
 
-    if (error) {
-      console.error("Supabase Error:", error)
-      alert("Failed to send message.")
-      return
-    }
+if (error) {
+  console.error("Supabase Error:", error)
+  alert(
+    `Error: ${error.message}\n\nCode: ${error.code || "N/A"}`
+  )
+  return
+}
 
     setSubmitted(true)
 
