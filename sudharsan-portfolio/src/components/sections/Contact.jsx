@@ -52,16 +52,15 @@ export default function Contact() {
 
     setLoading(true)
 
-    const { error } = await supabase
-      .from("contact_messages")
-      .insert([
-        {
-          name: formState.name,
-          email: formState.email,
-          message: formState.message,
-        },
-      ])
-
+const { error } = await supabase
+  .from("contact_messages")
+  .insert([
+    {
+      name: form.name,
+      email: form.email,
+      message: form.message,
+    },
+  ]);
     setLoading(false)
 
 if (error) {
