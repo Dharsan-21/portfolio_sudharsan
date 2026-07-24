@@ -107,7 +107,7 @@ export const experience = {
   title: 'Where I have applied my skills',
   role: 'Python Developer Intern',
   company: 'Internship',
-  dateRange: '2026 — Present',
+  dateRange: '2024 — Present',
   bullets: [
     'Automated a reporting workflow reducing manual data entry by approximately three hours per week.',
     'Built Python scripts that integrated with MySQL databases to streamline internal data pipelines.',
@@ -182,16 +182,12 @@ export const achievements = {
       description: 'Microcontroller programming and peripheral integration',
       context: '2026',
     },
-    {
-      icon: 'cube',
-      title: '3D Printing & Prototyping Workshop',
-      description: 'Rapid prototyping for hardware project iterations',
-<<<<<<< HEAD
-      context: '2025',
-=======
-      context: '2026',
->>>>>>> 260df2b (Fix contact form and Supabase integration)
-    },
+{
+  icon: 'cube',
+  title: '3D Printing & Prototyping Workshop',
+  description: 'Rapid prototyping for hardware project iterations',
+  context: '2026',
+},
   ],
 }
 
